@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Merriweather:wght@300;400;700&family=Montserrat:wght@300;400;500;600;700;900&family=Overpass:wght@400;600;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", sans-serif;
+    font-weight: 400;
+}
+
+html{
+    font-size: 9px;
+}
+
+.main__div{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #6fa1f7;
+}
+
+.inner__div{
+    width: 40vw;
+    background-color: white;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+
+.inner__div h2{
+    font-size: 2.5rem;
+    margin: 1rem 0 4rem 0;
+}
+
+.inner__div li{
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    list-style: none;
+}
+
+input{
+    cursor: pointer;
+}
+
+#submit, .btn{
+    padding: 1rem 2rem;
+    outline: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    display: block;
+    margin: auto;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #4884fc;
+    margin-top: 3rem;
+    border-radius: 1rem;
+}
+
+#submit:hover{
+    background-color: #1155dd;
+}
+
+#showscore{
+    background-color: rgb(226, 222, 228);
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+
+#showscore h3{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#showscore .btn{
+    margin-top: 2rem;
+    background-color: #5eb48c;
+    
+}
+
+#showscore .btn:hover{
+    background-color: #06884b;
+}
+
+.scorearea{
+    display: none;
+}
